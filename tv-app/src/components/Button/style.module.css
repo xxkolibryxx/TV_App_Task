@@ -1,0 +1,23 @@
+.btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 12px 46px;
+  text-decoration: none;
+  font-size: 32px;
+  grid-gap: 15px;
+  border-radius: 30px;
+  border: none;
+  cursor: pointer;
+}
+
+.btn_white {
+  background-color: #ffffff;
+  color: #000000;
+}
+
+.btn_blue {
+  background: rgb(39, 39, 245);
+  background: linear-gradient(90deg, rgba(39, 39, 245, 1) 0%, rgba(0, 22, 113, 1) 100%);
+  color: #ffffff;
+}

@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Tajawal:wght@400;700&display=swap');
+
+body {
+  font-family: 'Tajawal', sans-serif;
+  background-color: #000000;
+  color: #ffffff;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.sub_heading {
+  margin-bottom: 12px;
+  font-size: 24px;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #858688;
+}
+
+.container {
+  margin-left: 155px;
+}
+
+.main_banner {
+  position: relative;
+  height: 70vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  padding-left: 15px;
+  z-index: 2;
+}
+
+.banner_media {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: -1;
+  height: 70vh;
+  object-fit: cover;
+  object-position: top;
+}
+
+.img-fluid {
+  width: 100%;
+}
+
+.featured_title {
+  max-width: 680px;
+}
+
+.movie_info {
+  font-size: 30px;
+  margin-top: 18px;
+  margin-bottom: 0;
+}
+
+.movie_description {
+  font-size: 32px;
+  max-width: 680px;
+  margin-top: 10px;
+}
+
+.btn_group {
+  display: flex;
+  grid-gap: 10px;
+}
+
+.trending-now h2 {
+  font-size: 32px;
+}

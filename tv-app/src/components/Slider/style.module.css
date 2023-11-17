@@ -1,0 +1,9 @@
+.slider_image {
+    height: 300px;
+    width: 200px;
+    object-fit: cover;
+}
+
+.slider_item {
+    cursor: pointer;
+}
